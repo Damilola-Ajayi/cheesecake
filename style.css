@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,400;1,500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    font-family: montserrat;
+}
+
+.intro-text{
+    margin-left: 120px;
+    
+}
+
+.intro-text h1{
+    color: #000;
+    font-family: Playfair Display;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin: 30px 0 15px 0;
+}
+
+.intro-text-div{
+    display: flex;
+    width: 50%;
+}
+
+.intro-text-div p{
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+    
+}
+
+.image img{
+    width: 80%;
+}
+
+.content{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.timing-box{
+    border: 2px solid #fff;
+    box-shadow: 0px 0px 20px 0px #0000001A;
+    border-radius: 12px;
+    width: 200px;
+    padding: 20px;
+    margin-right: 120px;
+    height: 55vh;
+}
+
+.timing-box h3{
+    font-weight: 700;
+    color: #BDBDBD;
+    font-size: 13px;
+}
+
+.timing-box h4{
+    font-weight: 500;
+    color: #333333;
+    font-size: 14px;
+}
+
+.time{
+    display: flex;
+    margin: 40px 0;
+}
+
+.time-text{
+    margin-left: 15px;
+}
+
+#color{
+    color: #F2994A;
+}
+
+.left-content{
+    width: 50%;
+    margin-right: 160px;
+}
+
+.ingredients{
+    font-family: playfair display;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.graham-cracker h2{
+    font-family: playfair display;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.checkbox-text{
+    margin-top: 15px;
+    display: flex;
+}
+
+input[type="checkbox"]{
+    margin-top: 5px; 
+    
+}
+
+.checkbox-label{
+    margin-left: 10px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333333;
+    line-height: 25px;
+}
+
+.bold-text{
+    font-weight: 700;
+}
+
+#toppings{
+    font-weight: 500;
+    font-style: italic;
+    
+}
+
+.cheesecake h2{
+    font-family: playfair display;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 18px;
+    margin: 20px 0;
+    color: #333333;
+}
+
+.instructions h2{
+    font-family: playfair display;
+    font-weight: 700;
+    font-size: 24px;
+    color: #333333;
+    margin: 20px 0;
+}
+
+.instructions-div{
+    display: flex;
+    margin-top: 15px;
+}
+
+.instructions-text{
+    line-height: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.instructions-bold-text{
+    font-weight: 700;
+}
+
+.numbers{
+    border: 1px solid #F2994A;
+    border-radius: 6px;
+    padding: 12px;
+    height: 40px;
+    margin-right: 10px;
+    background-color: #F2994A;
+    color: #fff;
+    margin-top: 3px;
+}
+
+.source{
+    color: #BDBDBD;
+    margin-top: 40px;
+    font-weight: 400;
+    font-style: italic;
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+footer p{
+    color: #828282;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: montserrat;
+
+}
+
+
+@media screen  and (max-width: 768px){
+    
+.intro-text{
+    margin-left: 0;
+}
+
+.intro-text h1{
+    font-size: 26px;
+}
+
+.intro-text-div{
+    width: 90%;
+}
+
+/* .intro-text-div p{
+    margin: 0;
+    margin-left: 10px;
+} */
+
+.image{
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.image img {
+   width: 100%;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+}
+
+.timing-box{
+    border: none;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    width: unset;
+    margin: 0;
+    padding: 0;
+}
+
+.flexed-box{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.timing-box h3{
+    font-size: 10px;
+}
+
+.timing-box h4{
+    font-size: 10px;
+}
+
+.time{
+    margin: 20px 0;
+    
+}
+
+.time-text{
+    margin: 0;
+    margin-left: 5px;
+}
+
+.first img{
+    width: 10%;
+}
+
+.left{
+    margin-left: 20px;
+}
+
+.left-content{
+    width: 100%;
+    margin: 0;
+}
+
+.ingredients{
+    font-size: 16px;
+}
+
+.graham-cracker h2{
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.checkbox-label{
+    font-size: 12px;
+}
+
+.cheesecake h2{
+    font-size: 14px;
+}
+
+.instructions-text{
+    font-size: 12px;
+}
+
+.numbers{
+    padding: 5px;
+    height: 30px;
+}
+
+.source{
+    font-size: 13px;
+}
+
+footer p{
+    font-size: 12px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
